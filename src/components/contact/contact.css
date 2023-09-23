@@ -1,0 +1,38 @@
+/*  */
+.contact-container {
+    display: grid;
+    place-items: center;
+}
+.contact-wrapper {
+    width: fit-content;
+    display: flex;
+    gap: 1.2rem;
+}
+.contact-wrapper a {
+    background: transparent;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    padding: 7px 12px 0 12px;
+    transition: var(--transition);
+}
+.contact-wrapper a:hover {
+    background: transparent;
+    border-color: var(--color-light);
+}
+
+@media  screen and (max-width: 600px) {
+    .contact-wrapper {
+        gap: 1.2rem;
+    }
+    .contact-wrapper a {
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        padding: 3px 6px 0 6px;
+    }
+    .contact-wrapper a:hover {
+        background: transparent;
+        border-color: var(--color-light);
+    }
+}
