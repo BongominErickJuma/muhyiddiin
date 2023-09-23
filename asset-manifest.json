@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/muhyiddiin/static/css/main.5ef99925.css",
-    "main.js": "/muhyiddiin/static/js/main.170719a7.js",
+    "main.js": "/muhyiddiin/static/js/main.5e7fa30f.js",
     "static/media/Mission.jpg": "/muhyiddiin/static/media/Mission.b563ef96332792a488c7.jpg",
     "static/media/col.png": "/muhyiddiin/static/media/col.2c144b4a8c97d5cda275.png",
     "static/media/voc.png": "/muhyiddiin/static/media/voc.0cbd4d582b52b6c52de0.png",
@@ -9,10 +9,10 @@
     "static/media/school.png": "/muhyiddiin/static/media/school.6467478facc392c09143.png",
     "index.html": "/muhyiddiin/index.html",
     "main.5ef99925.css.map": "/muhyiddiin/static/css/main.5ef99925.css.map",
-    "main.170719a7.js.map": "/muhyiddiin/static/js/main.170719a7.js.map"
+    "main.5e7fa30f.js.map": "/muhyiddiin/static/js/main.5e7fa30f.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef99925.css",
-    "static/js/main.170719a7.js"
+    "static/js/main.5e7fa30f.js"
   ]
 }
