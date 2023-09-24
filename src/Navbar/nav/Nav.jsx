@@ -15,7 +15,7 @@ const Nav = () => {
         <div className='container nav_container'>
           <Link to="/" className='logo' onClick={() => setIsNavShowing(false)}>
             <div className='badge'>
-              <h1><span className='tomato'>MUHYIDDIIN</span></h1>
+              <h1>MUHYIDDIIN</h1>
             </div>
           </Link>
           <ul className={`nav_links ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>

@@ -6,7 +6,7 @@ export const links = [
         path: '/'
     },
     {
-        name: "ABOUT US",
+        name: "ABOUT",
         path: '/about'
     },
     {
@@ -18,7 +18,7 @@ export const links = [
         path: '/admissions'
     },
     {
-        name: "CONTACT US",
+        name: "CONTACT",
         path: '/contact'
     }
 ]

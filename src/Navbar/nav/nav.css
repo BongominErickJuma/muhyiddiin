@@ -8,13 +8,8 @@ nav {
     position: fixed;
     top: 0;
     z-index: 99;
-    /* border: 3px solid var(--color-primary); */
-    /* margin: 3px auto; */
 }
-.tomato{
-    color: var(--color-bg);
-    font-weight: 700;
-}
+
 .nav_toggle-btn {
     display: none;
 }
@@ -28,6 +23,12 @@ nav {
 }
 .badge h1 {
     letter-spacing: 0.2rem;
+    color: var(--color-bg);
+    font-weight: 700;
+    width: fit-content;
+    align-self: center;
+    margin-top: 1.5rem;
+    /* border: 1px solid; */
 }
 
 .logo {
@@ -36,9 +37,14 @@ nav {
 }
 
 .nav_links {
+    max-width: 60%;
     display: flex;
-    gap: 2rem;
+    gap: 1.2rem;
     align-items: center;
+}
+.active-nav {
+    position: relative;
+    /* border: 1px solid red; */
 }
 
 .nav_links a {
@@ -49,22 +55,19 @@ nav {
     color: var(--color-white);
 }
 
-.active-nav {
-    position: relative;
-}
-
 .active-nav::after {
     content: '';
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--color-primary-variant);
+    background: var(--color-light);
     position: absolute;
-    left: calc(50% - 0.6rem);
+    left: calc(50% - 0.8rem);
     transform: rotate(45deg);
-    margin-top: 0.45rem;
+    margin-top: 1rem;
     transition: var(--transition);
 }
+
 
 @media screen and (max-width: 1024px){
     .nav_toggle-btn {

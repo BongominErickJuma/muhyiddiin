@@ -1,5 +1,6 @@
 
 .about-section-image {
+    margin-top: 3rem;
     overflow: hidden;
     transform: skew(0);
     transition: var(--transition);
@@ -33,7 +34,7 @@
         width: 60%;
     }
     .about-section-content {
-        margin-bottom: 4px;
+        margin-bottom: 0.5rem;
     }
     .about-story-container, .about-vision-container, .about-mission-container {
         grid-template-columns: 1fr;

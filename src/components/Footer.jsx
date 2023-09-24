@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-// import badge from './badge.png'
 import { FaFacebookF } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
